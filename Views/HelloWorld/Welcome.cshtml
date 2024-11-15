@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "List with names";
+}
+<h1> Woezon va</h1>
+
+<ul>
+    @for (int i = 0; i < (int)ViewData["numtimes"]!; i++)
+    {
+        <li> La personne @ViewData["name"] est de rang @(i+1) </li>
+    }
+    
+</ul> 
